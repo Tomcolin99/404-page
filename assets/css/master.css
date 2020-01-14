@@ -23,6 +23,7 @@ body {
 h1 {
   font-size: 12em;
   margin-bottom: 1%;
+  animation: shake 1s;
 }
 
 button {
@@ -36,5 +37,6 @@ button {
 
 button:hover {
   color: #FFFFFF;
-  background-color: #5d5b6a;
+  background-color: rgba(46, 49, 49, 0.5);
+  animation: swing 1s;
 }
